@@ -46,6 +46,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\IgaguriGenerator.cs" />
      <Compile Include="Assets\Scripts\IgaguriController.cs" />
  <Reference Include="Facebook.Unity.Settings">
  <HintPath>/Users/Shared/Unity/Igaguri/Library/FacebookSDK/Facebook.Unity.Settings.dll</HintPath>

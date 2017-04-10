@@ -10,10 +10,11 @@ public class IgaguriController : MonoBehaviour {
 
 	void OnCollisionEnter(Collision other){
 		GetComponent<Rigidbody> ().isKinematic = true;
+		GetComponent<ParticleSystem> ().Play ();
 	}
 
 	void Start () {
-		Shoot (new Vector3 (0, 200, 2000));
+		//Shoot (new Vector3 (0, 200, 2000));
 	}
 
 	void Update () {
